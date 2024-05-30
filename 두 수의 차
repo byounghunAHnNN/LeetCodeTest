@@ -1,0 +1,13 @@
+public class Solution {
+    public int solution(int num1, int num2) {
+        return num1 - num2;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int num1 = 100;
+        int num2 = 50;
+        int result = solution.solution(num1, num2);
+        System.out.println("Result: " + result);
+    }
+}
