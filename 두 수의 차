@@ -11,3 +11,17 @@ public class Solution {
         System.out.println("Result: " + result);
     }
 }
+// 다른 풀이
+class Solution {
+    public int solution(int num1, int num2) {
+        int answer = 0;
+
+        if (num1 < -50000 && num1 > 50000 || num2 < -50000 && num2 > 50000) {
+            System.out.println("-50000 ~ 50000 사이의 정수를 입력해주세요.");
+            return -1;
+        }
+
+        answer = num1 - num2;
+        return answer;
+    }
+}
